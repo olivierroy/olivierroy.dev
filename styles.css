@@ -170,6 +170,12 @@ nav a:hover {
     color: var(--text-primary);
 }
 
+.project-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 .project-links a {
     display: inline-flex;
     align-items: center;
