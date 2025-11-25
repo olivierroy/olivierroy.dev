@@ -205,8 +205,12 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Olivier Roy. All rights reserved.</p>
+            <p>&copy; <span id="current-year"></span> Olivier Roy. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
