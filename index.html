@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivier Roy - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Olivier Roy</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Web Developer</h2>
+                <p>Building innovative web solutions and open source tools</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a web developer passionate about creating practical, user-focused applications. I build tools that solve real problems and contribute to the open source community.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Open Source Projects</h2>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Pocket Casts Search Extension</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/olivierroy/pocketcasts-search" target="_blank" rel="noopener noreferrer">
+                                    <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    View on GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">Chrome extension enabling users to discover podcasts on Pocket Casts while browsing podcast platforms. Streamlines finding shows across different streaming services by integrating directly into the browser experience.</p>
+
+                        <div class="project-features">
+                            <h4>Features</h4>
+                            <ul>
+                                <li>Automatic podcast detection on webpages</li>
+                                <li>Multi-platform support (Spotify, Apple Podcasts, SoundCloud, and more)</li>
+                                <li>Manual search capability from extension popup</li>
+                                <li>Quick access buttons on compatible pages</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">Chrome Extension</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Knitting Pattern Counter</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/olivierroy/knitting_counter" target="_blank" rel="noopener noreferrer">
+                                    <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    View on GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">Tool that automatically analyzes knitting pattern images and overlays stitch numbers to assist knitters in following patterns. Processes grid-based textile charts with real-time numbering overlays.</p>
+
+                        <div class="project-features">
+                            <h4>Features</h4>
+                            <ul>
+                                <li>Automatic grid detection from pattern images</li>
+                                <li>Sequential stitch numbering with color tracking</li>
+                                <li>Adjustable grid parameters and color tolerance</li>
+                                <li>Visual toggle options for grid lines and numbering</li>
+                                <li>Pattern analytics and color breakdown</li>
+                                <li>Export processed patterns as PNG files</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5 Canvas</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Client-side Processing</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Botdeny</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/olivierroy/botdeny" target="_blank" rel="noopener noreferrer">
+                                    <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    View on GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">Log analysis utility designed to identify and block malicious web traffic. Parses Nginx access logs to detect suspicious IP addresses exhibiting patterns indicative of automated attacks or scanning activities.</p>
+
+                        <div class="project-features">
+                            <h4>Features</h4>
+                            <ul>
+                                <li>High request rate and burst detection with configurable thresholds</li>
+                                <li>SQL injection attempt identification across multiple attack vectors</li>
+                                <li>Error rate analysis and wide path coverage assessment</li>
+                                <li>Automatic Nginx deny rule generation with IP allowlisting</li>
+                                <li>GeoIP-based country penalties and user-agent whitelisting</li>
+                                <li>Intelligent false-positive prevention</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <span class="tech-tag">Go</span>
+                            <span class="tech-tag">Nginx</span>
+                            <span class="tech-tag">GeoIP2</span>
+                            <span class="tech-tag">Log Analysis</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Web Development Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Full-Stack Development</h3>
+                        <p>Build complete web applications from frontend to backend with modern technologies and best practices.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Browser Extensions</h3>
+                        <p>Create custom Chrome and Firefox extensions to enhance browser functionality and streamline workflows.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Interactive Tools</h3>
+                        <p>Develop specialized web-based tools and utilities that solve specific problems for your users.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Code Review & Consultation</h3>
+                        <p>Review existing codebases, provide technical guidance, and optimize web application performance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Interested in working together? Let's discuss your project.</p>
+                <div class="contact-links">
+                    <a href="mailto:contact@olivierroy.dev" class="contact-button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Email
+                    </a>
+                    <a href="https://github.com/olivierroy" target="_blank" rel="noopener noreferrer" class="contact-button">
+                        <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Olivier Roy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
