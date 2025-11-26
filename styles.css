@@ -246,6 +246,41 @@ nav a:hover {
     text-align: center;
 }
 
+.consulting-offer {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    box-shadow: var(--shadow-lg);
+}
+
+.consulting-offer h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.consulting-offer p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.consulting-offer .cta-button {
+    background: white;
+    color: #059669;
+    font-size: 1rem;
+}
+
+.consulting-offer .cta-button:hover {
+    background: var(--bg-light);
+}
+
 .services-grid {
     display: grid;
     gap: 2rem;
@@ -385,6 +420,18 @@ footer p {
     .project-header {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .consulting-offer {
+        padding: 2rem 1.5rem;
+    }
+
+    .consulting-offer h3 {
+        font-size: 1.5rem;
+    }
+
+    .consulting-offer p {
+        font-size: 1rem;
     }
 
     footer {
