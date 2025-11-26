@@ -333,13 +333,13 @@ footer p {
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        padding: 0 0.75rem;
+        padding: 0 0.5rem;
     }
 
     nav {
         flex-direction: column;
         gap: 1rem;
-        padding: 1rem 0.75rem;
+        padding: 1rem 0.5rem;
     }
 
     .hero-content h2 {
@@ -351,14 +351,14 @@ footer p {
     }
 
     #hero {
-        padding: 5rem 0.75rem;
+        padding: 5rem 0.5rem;
     }
 
     #about,
     #projects,
     #services,
     #contact {
-        padding: 3rem 0.75rem;
+        padding: 3rem 0.5rem;
     }
 
     nav ul {
@@ -388,7 +388,7 @@ footer p {
     }
 
     footer {
-        padding: 2rem 0.75rem;
+        padding: 2rem 0.5rem;
     }
 }
 
