@@ -74,42 +74,11 @@ nav a:hover {
 
 /* Hero Section */
 #hero {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    background: var(--primary-color);
     color: white;
-    padding: 6rem 1.5rem 5rem;
+    padding: 4rem 1.5rem 3.5rem;
     text-align: center;
     border-bottom: 1px solid #334155;
-    position: relative;
-    overflow: hidden;
-}
-
-#hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 200%;
-    height: 100%;
-    background:
-        repeating-linear-gradient(
-            90deg,
-            transparent,
-            transparent 79px,
-            rgba(59, 130, 246, 0.4) 79px,
-            rgba(59, 130, 246, 0.4) 81px
-        );
-    transform: skewX(-20deg);
-    animation: slide 20s linear infinite;
-}
-
-@keyframes slide {
-    0% { transform: skewX(-20deg) translateX(0); }
-    100% { transform: skewX(-20deg) translateX(80px); }
-}
-
-.hero-content {
-    position: relative;
-    z-index: 1;
 }
 
 .hero-content h2 {
@@ -144,7 +113,7 @@ nav a:hover {
 
 /* About Section */
 #about {
-    padding: 6rem 1.5rem;
+    padding: 4rem 1.5rem;
     background: var(--bg-white);
 }
 
@@ -457,7 +426,7 @@ footer p {
     }
 
     #hero {
-        padding: 4rem 0.5rem 3rem;
+        padding: 3rem 0.5rem 2.5rem;
     }
 
     #about h2,
@@ -467,7 +436,10 @@ footer p {
         font-size: 2rem;
     }
 
-    #about,
+    #about {
+        padding: 2.5rem 0.5rem;
+    }
+
     #projects,
     #services,
     #contact {
