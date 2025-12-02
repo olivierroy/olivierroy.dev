@@ -405,6 +405,74 @@ footer p {
     color: rgba(255, 255, 255, 0.8);
 }
 
+.legal-links {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+.legal-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.legal-links a:hover {
+    color: var(--accent-blue);
+}
+
+/* Legal Pages */
+#legal-notice,
+#privacy-policy {
+    padding: 6rem 1.5rem;
+    background: var(--bg-white);
+}
+
+#legal-notice h2,
+#privacy-policy h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.legal-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.legal-content h3 {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.legal-content p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+}
+
+.legal-content ul {
+    color: var(--text-secondary);
+    margin-left: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.legal-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+}
+
+.legal-content em {
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -432,7 +500,9 @@ footer p {
     #about h2,
     #projects h2,
     #services h2,
-    #contact h2 {
+    #contact h2,
+    #legal-notice h2,
+    #privacy-policy h2 {
         font-size: 2rem;
     }
 
@@ -442,7 +512,9 @@ footer p {
 
     #projects,
     #services,
-    #contact {
+    #contact,
+    #legal-notice,
+    #privacy-policy {
         padding: 3rem 0.5rem;
     }
 
